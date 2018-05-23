@@ -2,12 +2,14 @@
 //  AppDelegate.swift
 //  FriendMe
 //
-//  Created by Ryan Schefske on 5/23/18.
+//  Created by Ryan Schefske on 2/17/18.
 //  Copyright © 2018 Ryan Schefske. All rights reserved.
 //
 
 import UIKit
 import CoreData
+import Parse
+import GoogleMobileAds
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -17,6 +19,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        GADMobileAds.configure(withApplicationID: "ca-app-pub-2392719817363402~4399616848")
+        
+        let configuration = ParseClientConfiguration {
+            $0.applicationId = "ac806a9c51f6a0386f025bea4e8ee4e1e86b5ff2"
+            $0.clientKey = "f1b5e609d37bba358ee5bf9cff2f96ad50bf0ce5"
+            $0.server = "http://ec2-52-15-143-52.us-east-2.compute.amazonaws.com/parse"
+        }
+        Parse.initialize(with: configuration)
+        
         return true
     }
 
@@ -53,7 +65,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "FriendMe")
+        let container = NSPersistentContainer(name: "FriendHub")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

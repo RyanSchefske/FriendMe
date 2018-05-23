@@ -7,23 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3DDC61F820B5B40400E56136 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC61F720B5B40400E56136 /* AppDelegate.swift */; };
-		3DDC61FA20B5B40400E56136 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC61F920B5B40400E56136 /* ViewController.swift */; };
-		3DDC61FD20B5B40400E56136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC61FB20B5B40400E56136 /* Main.storyboard */; };
 		3DDC620020B5B40400E56136 /* FriendMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC61FE20B5B40400E56136 /* FriendMe.xcdatamodeld */; };
 		3DDC620220B5B40500E56136 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC620120B5B40500E56136 /* Assets.xcassets */; };
 		3DDC620520B5B40500E56136 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC620320B5B40500E56136 /* LaunchScreen.storyboard */; };
+		3DDC620D20B5B41F00E56136 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC620C20B5B41F00E56136 /* Main.storyboard */; };
+		3DDC620F20B5B44600E56136 /* defaultUser.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DDC620E20B5B44600E56136 /* defaultUser.png */; };
+		3DDC621A20B5B60000E56136 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621020B5B5FE00E56136 /* SearchViewController.swift */; };
+		3DDC621B20B5B60000E56136 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621120B5B5FE00E56136 /* CreateAccountViewController.swift */; };
+		3DDC621C20B5B60000E56136 /* YourProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621220B5B5FF00E56136 /* YourProfileViewController.swift */; };
+		3DDC621D20B5B60000E56136 /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621320B5B5FF00E56136 /* EditProfileViewController.swift */; };
+		3DDC621E20B5B60000E56136 /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621420B5B5FF00E56136 /* HomeCollectionViewCell.swift */; };
+		3DDC621F20B5B60000E56136 /* HomeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621520B5B5FF00E56136 /* HomeTableViewController.swift */; };
+		3DDC622020B5B60000E56136 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621620B5B5FF00E56136 /* ProfileViewController.swift */; };
+		3DDC622120B5B60000E56136 /* CustomSearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621720B5B5FF00E56136 /* CustomSearchTableViewCell.swift */; };
+		3DDC622220B5B60000E56136 /* HomeProfileTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621820B5B5FF00E56136 /* HomeProfileTableViewCell.swift */; };
+		3DDC622320B5B60000E56136 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC621920B5B5FF00E56136 /* LogInViewController.swift */; };
+		3DDC622520B5B62200E56136 /* AppDelegate 22-18-03-601.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DDC622420B5B62100E56136 /* AppDelegate 22-18-03-601.swift */; };
+		A2E253C6D1796BABC5F90B11 /* Pods_FriendMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 410777AD99750EEC98D0A7AC /* Pods_FriendMe.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3DDC61F420B5B40400E56136 /* FriendMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FriendMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3DDC61F720B5B40400E56136 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3DDC61F920B5B40400E56136 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3DDC61FC20B5B40400E56136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3DDC61FF20B5B40400E56136 /* FriendMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FriendMe.xcdatamodel; sourceTree = "<group>"; };
 		3DDC620120B5B40500E56136 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3DDC620420B5B40500E56136 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3DDC620620B5B40500E56136 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DDC620C20B5B41F00E56136 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		3DDC620E20B5B44600E56136 /* defaultUser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defaultUser.png; sourceTree = "<group>"; };
+		3DDC621020B5B5FE00E56136 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3DDC621120B5B5FE00E56136 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		3DDC621220B5B5FF00E56136 /* YourProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YourProfileViewController.swift; sourceTree = "<group>"; };
+		3DDC621320B5B5FF00E56136 /* EditProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		3DDC621420B5B5FF00E56136 /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		3DDC621520B5B5FF00E56136 /* HomeTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeTableViewController.swift; sourceTree = "<group>"; };
+		3DDC621620B5B5FF00E56136 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		3DDC621720B5B5FF00E56136 /* CustomSearchTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomSearchTableViewCell.swift; sourceTree = "<group>"; };
+		3DDC621820B5B5FF00E56136 /* HomeProfileTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeProfileTableViewCell.swift; sourceTree = "<group>"; };
+		3DDC621920B5B5FF00E56136 /* LogInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		3DDC622420B5B62100E56136 /* AppDelegate 22-18-03-601.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "AppDelegate 22-18-03-601.swift"; sourceTree = "<group>"; };
+		410777AD99750EEC98D0A7AC /* Pods_FriendMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FriendMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A8EE6F4B9832E8D1149D814 /* Pods-FriendMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendMe.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FriendMe/Pods-FriendMe.debug.xcconfig"; sourceTree = "<group>"; };
+		B2BDB8A8CFD0CBAC89F088AF /* Pods-FriendMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FriendMe.release.xcconfig"; path = "Pods/Target Support Files/Pods-FriendMe/Pods-FriendMe.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E253C6D1796BABC5F90B11 /* Pods_FriendMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				3DDC61F620B5B40400E56136 /* FriendMe */,
 				3DDC61F520B5B40400E56136 /* Products */,
+				E275167F80DDFF6CD0122957 /* Pods */,
+				AFB9C95ECAD85AF42B7FB173 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +83,42 @@
 		3DDC61F620B5B40400E56136 /* FriendMe */ = {
 			isa = PBXGroup;
 			children = (
-				3DDC61F720B5B40400E56136 /* AppDelegate.swift */,
-				3DDC61F920B5B40400E56136 /* ViewController.swift */,
-				3DDC61FB20B5B40400E56136 /* Main.storyboard */,
+				3DDC622420B5B62100E56136 /* AppDelegate 22-18-03-601.swift */,
+				3DDC621920B5B5FF00E56136 /* LogInViewController.swift */,
+				3DDC621120B5B5FE00E56136 /* CreateAccountViewController.swift */,
+				3DDC621520B5B5FF00E56136 /* HomeTableViewController.swift */,
+				3DDC621420B5B5FF00E56136 /* HomeCollectionViewCell.swift */,
+				3DDC621820B5B5FF00E56136 /* HomeProfileTableViewCell.swift */,
+				3DDC621020B5B5FE00E56136 /* SearchViewController.swift */,
+				3DDC621720B5B5FF00E56136 /* CustomSearchTableViewCell.swift */,
+				3DDC621220B5B5FF00E56136 /* YourProfileViewController.swift */,
+				3DDC621320B5B5FF00E56136 /* EditProfileViewController.swift */,
+				3DDC621620B5B5FF00E56136 /* ProfileViewController.swift */,
+				3DDC620C20B5B41F00E56136 /* Main.storyboard */,
 				3DDC620120B5B40500E56136 /* Assets.xcassets */,
+				3DDC620E20B5B44600E56136 /* defaultUser.png */,
 				3DDC620320B5B40500E56136 /* LaunchScreen.storyboard */,
 				3DDC620620B5B40500E56136 /* Info.plist */,
 				3DDC61FE20B5B40400E56136 /* FriendMe.xcdatamodeld */,
 			);
 			path = FriendMe;
+			sourceTree = "<group>";
+		};
+		AFB9C95ECAD85AF42B7FB173 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				410777AD99750EEC98D0A7AC /* Pods_FriendMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E275167F80DDFF6CD0122957 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7A8EE6F4B9832E8D1149D814 /* Pods-FriendMe.debug.xcconfig */,
+				B2BDB8A8CFD0CBAC89F088AF /* Pods-FriendMe.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +128,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3DDC620920B5B40500E56136 /* Build configuration list for PBXNativeTarget "FriendMe" */;
 			buildPhases = (
+				FF1FB98BF15F7FDB9908458C /* [CP] Check Pods Manifest.lock */,
 				3DDC61F020B5B40400E56136 /* Sources */,
 				3DDC61F120B5B40400E56136 /* Frameworks */,
 				3DDC61F220B5B40400E56136 /* Resources */,
+				901A91328B4C260C7C6777EE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +183,77 @@
 			files = (
 				3DDC620520B5B40500E56136 /* LaunchScreen.storyboard in Resources */,
 				3DDC620220B5B40500E56136 /* Assets.xcassets in Resources */,
-				3DDC61FD20B5B40400E56136 /* Main.storyboard in Resources */,
+				3DDC620F20B5B44600E56136 /* defaultUser.png in Resources */,
+				3DDC620D20B5B41F00E56136 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		901A91328B4C260C7C6777EE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-FriendMe/Pods-FriendMe-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FriendMe/Pods-FriendMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF1FB98BF15F7FDB9908458C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FriendMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3DDC61F020B5B40400E56136 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3DDC621B20B5B60000E56136 /* CreateAccountViewController.swift in Sources */,
 				3DDC620020B5B40400E56136 /* FriendMe.xcdatamodeld in Sources */,
-				3DDC61FA20B5B40400E56136 /* ViewController.swift in Sources */,
-				3DDC61F820B5B40400E56136 /* AppDelegate.swift in Sources */,
+				3DDC622520B5B62200E56136 /* AppDelegate 22-18-03-601.swift in Sources */,
+				3DDC622220B5B60000E56136 /* HomeProfileTableViewCell.swift in Sources */,
+				3DDC622020B5B60000E56136 /* ProfileViewController.swift in Sources */,
+				3DDC621C20B5B60000E56136 /* YourProfileViewController.swift in Sources */,
+				3DDC622320B5B60000E56136 /* LogInViewController.swift in Sources */,
+				3DDC621A20B5B60000E56136 /* SearchViewController.swift in Sources */,
+				3DDC621F20B5B60000E56136 /* HomeTableViewController.swift in Sources */,
+				3DDC622120B5B60000E56136 /* CustomSearchTableViewCell.swift in Sources */,
+				3DDC621D20B5B60000E56136 /* EditProfileViewController.swift in Sources */,
+				3DDC621E20B5B60000E56136 /* HomeCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3DDC61FB20B5B40400E56136 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3DDC61FC20B5B40400E56136 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3DDC620320B5B40500E56136 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +381,7 @@
 		};
 		3DDC620A20B5B40500E56136 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7A8EE6F4B9832E8D1149D814 /* Pods-FriendMe.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +400,7 @@
 		};
 		3DDC620B20B5B40500E56136 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2BDB8A8CFD0CBAC89F088AF /* Pods-FriendMe.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
