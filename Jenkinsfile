@@ -17,9 +17,9 @@ pipeline {
         sleep 5
       }
     }
-    stage('Build') {
+    stage('') {
       steps {
-        build 'FriendMe'
+        sh 'xcodebuild'
       }
     }
   }
