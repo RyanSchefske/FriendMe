@@ -1,9 +1,21 @@
 pipeline {
   agent any
   stages {
-    stage('') {
-      steps {
-        echo 'Hello'
+    stage('error') {
+      parallel {
+        stage('Print Message') {
+          steps {
+            echo 'Hello'
+          }
+        }
+        stage('TimeStamp') {
+          steps {
+            timestamps() {
+              echo 'Time'
+            }
+
+          }
+        }
       }
     }
   }
