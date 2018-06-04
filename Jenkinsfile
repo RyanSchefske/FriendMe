@@ -17,5 +17,10 @@ pipeline {
         sleep 5
       }
     }
+    stage('Build') {
+      steps {
+        build 'job'
+      }
+    }
   }
 }
