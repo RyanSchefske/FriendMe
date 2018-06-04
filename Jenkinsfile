@@ -20,5 +20,10 @@ pipeline {
         echo 'Done'
       }
     }
+    stage('Sleep') {
+      steps {
+        sleep 5
+      }
+    }
   }
 }
