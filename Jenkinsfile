@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Print Message') {
+    stage('Parallel Print') {
       parallel {
         stage('Print Message') {
           steps {
