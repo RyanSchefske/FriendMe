@@ -7,8 +7,17 @@ pipeline {
       }
     }
     stage('Time Limit') {
-      steps {
-        timeout(time: 2)
+      parallel {
+        stage('Time Limit') {
+          steps {
+            timeout(time: 2)
+          }
+        }
+        stage('Time Limit Message') {
+          steps {
+            echo 'Did not make time limit'
+          }
+        }
       }
     }
   }
