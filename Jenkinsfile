@@ -7,19 +7,10 @@ pipeline {
         echo 'Print'
       }
     }
-    stage('Print') {
-      steps {
-        echo 'Done'
-      }
-    }
-    stage('Sleep') {
-      steps {
-        sleep 5
-      }
-    }
     stage('Build') {
       steps {
-        sh 'xcodebuild -allowProvisioningUpdates'
+        sh '''xcodebuild -allowProvisioningUpdates
+pod install'''
       }
     }
   }
