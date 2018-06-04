@@ -1,21 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('error') {
-      parallel {
-        stage('Print Message') {
-          steps {
-            echo 'Hello'
-          }
-        }
-        stage('TimeStamp') {
-          steps {
-            timestamps() {
-              echo 'Time'
-            }
-
-          }
-        }
+    stage('Print Message') {
+      steps {
+        echo 'Hello'
+      }
+    }
+    stage('Time Limit') {
+      steps {
+        timeout(time: 2)
       }
     }
   }
