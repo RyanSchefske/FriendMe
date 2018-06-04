@@ -19,7 +19,7 @@ pipeline {
     }
     stage('Build') {
       steps {
-        build 'job'
+        build 'FriendMe'
       }
     }
   }
