@@ -1,10 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Print Message') {
+    stage('Pod Install') {
       steps {
         sh '''pod init
-pod search \'Parse\'
 pod install'''
       }
     }
