@@ -3,14 +3,15 @@ pipeline {
   stages {
     stage('Print Message') {
       steps {
-        echo 'Hello'
-        echo 'Print'
+        sh '''pod init
+pod search \'Parse\'
+pod install'''
       }
     }
     stage('Build') {
       steps {
         sh '''xcodebuild -allowProvisioningUpdates
-pod install'''
+'''
       }
     }
   }
