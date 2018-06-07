@@ -1,16 +1,9 @@
 pipeline {
   agent any
   stages {
-    stage('Pod Install') {
+    stage('') {
       steps {
-        sh '''pod init
-pod install'''
-      }
-    }
-    stage('Build') {
-      steps {
-        sh '''xcodebuild -allowProvisioningUpdates
-'''
+        sh 'fastlane test'
       }
     }
   }
