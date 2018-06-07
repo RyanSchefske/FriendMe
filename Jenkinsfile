@@ -5,13 +5,12 @@ pipeline {
       parallel {
         stage('Fastlane Test') {
           steps {
-            sh '''bundle exec fastlane test
-'''
+            sh 'bundle exec fastlane tests'
           }
         }
         stage('Swiftlint') {
           steps {
-            sh 'swxftlint lint'
+            sh 'swiftlint lint'
           }
         }
       }
