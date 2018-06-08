@@ -1,10 +1,15 @@
 pipeline {
   agent any
   stages {
-    stage('FastLane Test') {
+    stage('Bundle Install') {
       steps {
         sh '''bundle install --path vendor/bundle
 bundle update'''
+      }
+    }
+    stage('Fastlane Test') {
+      steps {
+        sh 'bundle exec fastlane tests'
       }
     }
   }
