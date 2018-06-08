@@ -1,0 +1,32 @@
+PODS:
+  - Bolts/Tasks (1.9.0)
+  - Google-Mobile-Ads-SDK (7.28.0)
+  - HockeySDK (5.1.2):
+    - HockeySDK/DefaultLib (= 5.1.2)
+  - HockeySDK/DefaultLib (5.1.2)
+  - Parse (1.16.0):
+    - Parse/Core (= 1.16.0)
+  - Parse/Core (1.16.0):
+    - Bolts/Tasks (~> 1.9)
+
+DEPENDENCIES:
+  - Google-Mobile-Ads-SDK
+  - HockeySDK (~> 5.1.2)
+  - Parse
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Bolts
+    - Google-Mobile-Ads-SDK
+    - HockeySDK
+    - Parse
+
+SPEC CHECKSUMS:
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  Google-Mobile-Ads-SDK: 7f9bc0011df363ae5616449de3682a14c4701612
+  HockeySDK: 38b7e2726af1ea86ae97ce4b5de33ab0817e3500
+  Parse: 5b36dc2c2f0a2fd82a257ae018bc3d68cf2c24e7
+
+PODFILE CHECKSUM: 5dd7797a72351da7fb1071389b30a661d892e91f
+
+COCOAPODS: 1.5.2

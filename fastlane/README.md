@@ -26,6 +26,11 @@ Description of what the lane does
 fastlane ios tests
 ```
 
+### ios misc
+```
+fastlane ios misc
+```
+
 
 ----
 
