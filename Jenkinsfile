@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('FastLane Test') {
       steps {
-        sh 'fastlane tests'
+        sh '''fastlane init
+fastlane tests'''
       }
     }
   }
