@@ -21,7 +21,7 @@ platform :ios do
     # add actions here: https://docs.fastlane.tools/actions
   end
   lane :tests do
-    run_tests(workspace: "project.xcworkspace",
+    run_tests(workspace: "FriendMe.xcworkspace",
               devices: ["iPhone 7", "iPad Air"],
 	      scheme: "FriendMe")
   end
