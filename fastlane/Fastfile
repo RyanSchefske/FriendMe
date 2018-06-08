@@ -21,8 +21,9 @@ platform :ios do
     # add actions here: https://docs.fastlane.tools/actions
   end
   lane :tests do
-    run_tests(workspace: "FriendMe.xcworkspace",
-              devices: ["iPhone 7", "iPad Air"],
-	      scheme: "FriendMe")
+    run_tests(scheme: "FriendMe")
+  end
+  lane :misc do
+    setup_jenkins(unlock_keychain)
   end
 end
