@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('FastLane Test') {
       steps {
-        sh 'which fastlane'
+        sh 'bundle update'
       }
     }
   }
