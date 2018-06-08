@@ -1,19 +1,14 @@
 pipeline {
   agent any
   stages {
-    stage('Fastlane Test') {
-      parallel {
-        stage('Fastlane Test') {
-          steps {
-            sh '''
-bundle exec fastlane tests'''
-          }
-        }
-        stage('Swiftlint') {
-          steps {
-            sh 'swiftlint lint'
-          }
-        }
+    stage('Setup Jenkins') {
+      steps {
+        sh 'setup_jenkins'
+      }
+    }
+    stage('FastLane Test') {
+      steps {
+        sh 'fastlane tests'
       }
     }
   }
