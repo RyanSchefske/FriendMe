@@ -3,7 +3,8 @@ pipeline {
   stages {
     stage('FastLane Test') {
       steps {
-        sh 'bundle update'
+        sh '''bundle install --path vendor/bundle
+bundle update'''
       }
     }
   }
