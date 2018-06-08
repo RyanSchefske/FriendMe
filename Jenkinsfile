@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Fastlane Test') {
       steps {
-        sh 'fastlane tests'
+        sh 'xcodebuild'
       }
     }
   }
