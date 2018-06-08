@@ -5,7 +5,7 @@ pipeline {
       parallel {
         stage('Fastlane Test') {
           steps {
-            sh '''pod init
+            sh '''
 bundle exec fastlane tests'''
           }
         }
