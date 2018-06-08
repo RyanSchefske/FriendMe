@@ -9,7 +9,7 @@ bundle update'''
     }
     stage('Fastlane Test') {
       steps {
-        sh 'fastlane misc'
+        sh 'fastlane rocket'
       }
     }
   }
