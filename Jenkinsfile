@@ -3,8 +3,7 @@ pipeline {
   stages {
     stage('FastLane Test') {
       steps {
-        sh '''fastlane init
-fastlane tests'''
+        sh 'fastlane appstore'
       }
     }
   }
